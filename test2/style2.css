@@ -60,6 +60,16 @@ body {
 		height: 300px ;
 		width: 300px ;
 	}
+	.active {
+		height: 50% !important;
+		width: 90% !important;
+	
+	}
+	
+	.active img {
+		height: 95% !important;
+		width: 90% !important;
+	}
 }
 #counter {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
