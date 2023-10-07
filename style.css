@@ -1,0 +1,138 @@
+/*General settings*/
+
+body{
+	background: #c5c1c1;
+}
+.flags{
+	display: flex;
+	flex-direction: column;
+	gap:30px;
+	padding:20px;
+}
+.country{
+	display: flex;
+	flex-direction: column;
+}
+
+/*Ukraine*/
+
+.ukraine__top{
+	height: 75px;
+	width:300px;
+	background: blue;
+}
+.ukraine__bottom{
+	height: 75px;
+	width: 300px;
+	background: yellow;
+}
+
+/*Japan*/
+
+.japan__circle{
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+.japan__main{
+	position: relative;
+	height: 150px;
+	width: 300px;
+	background: white;
+}
+
+/*Iceland*/
+
+.iceland__main{
+	position: relative;
+	height: 150px;
+	width:300px;
+	background: blue;
+}
+.iceland__hor__big-line{
+	height: 35px;
+	width:100%;
+	background: white;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	z-index: 1;
+}
+.iceland__vert__big-line{
+	height: 100%;
+	width: 35px;
+	background: white;
+
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+
+	z-index: 1;
+}
+
+.iceland__hor__small-line{
+	height: 15px;
+	width: 100%;
+	background: red;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	z-index: 2;
+}
+.iceland__vert__small-line {
+	height: 100%;
+	width: 15px;
+	background: red;
+	
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	
+	z-index: 2;
+}
+
+/*Czech*/
+.czech__main{
+	position: relative;
+}
+.czech__top{
+	height: 75px;
+	width: 300px;
+	background: white;
+}
+
+.czech__bottom {
+	height: 75px;
+	width: 300px;
+	background: red;
+}
+
+.czech__triangle{
+	position: absolute;
+	
+	width: 0;
+	height: 0;
+
+	border-top: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+	border-left:150px solid #002cf1;
+
+	top: 50%;
+	left: 0;
+	transform: translate(0, -50%);
+
+}
